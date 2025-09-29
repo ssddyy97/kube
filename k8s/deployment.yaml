@@ -11,7 +11,7 @@ spec:
       labels: { app: yourapp }
     spec:
       containers:
-      - name: yourapp
-        image: yourdockerhubusername/yourapp:initial
+      - name: springboot-app
+        image: yuni0952/springboot-app:latest
         ports:
         - containerPort: 8080

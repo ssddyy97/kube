@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: yourdockerhubusername/yourapp
+  IMAGE_NAME: ssddyy97/kube
 
 jobs:
   build-and-push:

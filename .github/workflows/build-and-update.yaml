@@ -5,7 +5,7 @@ on:
     branches: [ main ]
 
 env:
-  IMAGE_NAME: ssddyy97/kube
+  IMAGE_NAME: yuni0952/springboot-app
 
 jobs:
   build-and-push:

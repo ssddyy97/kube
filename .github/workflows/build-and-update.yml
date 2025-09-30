@@ -26,7 +26,7 @@ jobs:
           echo "TAG=$TAG" >> "$GITHUB_OUTPUT"
       - uses: docker/build-push-action@v6
         with:
-          context: ./board 
+          context: .
           file: ./Dockerfile
           push: true
           tags: ${{ env.IMAGE_NAME }}:${{ steps.vars.outputs.TAG }}
